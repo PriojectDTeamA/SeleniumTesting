@@ -15,8 +15,6 @@ def login(Username, Key):
     username_input.send_keys(Username)
     key_input.send_keys(Key)
 
-    print(Key)
-
     key_input.submit()
 
 def clearfields():
